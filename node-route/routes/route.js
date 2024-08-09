@@ -24,7 +24,7 @@ router.route('/')
     res.end('<html><body><h1>Put Method is routed</h1></body></html>');
 })
 
-.delete((re,res) =>{
+.delete((req,res) =>{
     res.statusCode = 403;
     res.end('<html><body><h1>Delete Method is routed</h1></body></html>');
 });
