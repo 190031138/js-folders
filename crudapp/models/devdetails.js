@@ -11,7 +11,8 @@ const devschema =new mongoose.Schema({
     },
     work: {
         type: Boolean,
-        required: true
+        required: true,
+        default: false
     }
 })
 
